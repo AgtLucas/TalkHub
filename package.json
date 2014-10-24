@@ -1,0 +1,19 @@
+{
+  "name": "TalkHub",
+  "version": "1.0.0",
+  "description": "Twitter clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgtLucas/TalkHub.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/TalkHub/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/TalkHub"
+}
