@@ -4,6 +4,19 @@
   <meta charset="UTF-8">
   <title>TalkHub</title>
   <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <script>
+      ~function (document) {
+        var elem = document.createElement('link');
+        var head = document.getElementsByTagName('head')[0];
+        elem.rel = 'stylesheet';
+        elem.href = 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600:latin';
+        elem.media = 'only x';
+        head.appendChild(elem);
+        setTimeout(function () {
+          elem.media = 'all';
+        });
+      }(document);
+  </script>
 </head>
 <body>
 
